@@ -56,7 +56,7 @@ h6 {
   font-size: 14px;
 }
 
-}
+
 p img {
   margin: 0;
 }
@@ -1304,11 +1304,11 @@ blockquote {
 @media (max-width: 991px) {
   .site-header {
     padding: 17px 0;
-    position: relative !important;
+    position: fixed !important;
   }
 
   .first-widget {
-    margin-top: 0;
+    margin-top: 62px;
   }
 
   .blog-post .thumb-post {
@@ -1334,6 +1334,13 @@ blockquote {
   }
 }
 @media (max-width: 767px) {
+  .home-intro-content{
+    padding: 4em 0;
+    text-align: center;
+  }
+  #homeIntro {
+    background-image: url("../images/includes/project1.jpg");
+  }
   .parallax { 
 	background-position: center center !important; 
   }

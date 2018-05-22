@@ -1067,4 +1067,7 @@ html[xmlns] .slides {
     opacity: 1;
     right: 10px;
   }
+  .mobilePad {
+    padding: 0 45px;
+  }
 }

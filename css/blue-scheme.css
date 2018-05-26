@@ -56,7 +56,7 @@ h6 {
   font-size: 14px;
 }
 
-
+}
 p img {
   margin: 0;
 }
@@ -310,7 +310,12 @@ a.menu-toggle-btn i {
   width: 100%;
   padding: 70px 0 80px 0;
 }
-.dark-content .section-header .section-title {
+.dark-content1 {
+  background-color: #31373a;
+  width: 100%;
+  padding: 0 0 80px 0;
+}
+.dark-content .section-header .section-title,.dark-content1 .section-header .section-title {
   color: white;
 }
 .dark-content .section-header .section-desc {
@@ -429,6 +434,7 @@ textarea:focus {
 button {
   outline: 0;
   border: 0;
+
 }
 
 input.mainBtn:focus,
@@ -516,6 +522,9 @@ input.mainBtn {
   margin: 55px 0;
   font-size: 18px;
   line-height: 32px;
+}
+.mobilePad{
+  padding: 0 45px;
 }
 .home-intro-content .large-button:hover {
   opacity: 0.8;
@@ -782,7 +791,7 @@ blockquote {
 }
 
 .project-single {
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 100px;
 }
 .project-single .project-title {
@@ -797,6 +806,10 @@ blockquote {
 }
 .project-single .description {
   margin-bottom: 40px;
+}
+.project-single .description2 {
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .project-single .meta-post li {
   display: block;
@@ -816,7 +829,7 @@ blockquote {
 .project-img {
   overflow: hidden;
 }
-.project-img img {
+.project-img img,.project-single .col-md-8 img {
   width: 100%;
   height: auto;
 }
@@ -991,7 +1004,7 @@ blockquote {
   overflow: hidden;
   margin-bottom: 20px;
 }
-.post-blog .blog-image img {
+.post-blog .blog-image img, .contact-wrapper .blog-image img{
   width: 100%;
   height: auto;
 }
@@ -1304,11 +1317,11 @@ blockquote {
 @media (max-width: 991px) {
   .site-header {
     padding: 17px 0;
-    position: fixed !important;
+    position: relative !important;
   }
 
   .first-widget {
-    margin-top: 62px;
+    margin-top: 0;
   }
 
   .blog-post .thumb-post {
@@ -1334,13 +1347,6 @@ blockquote {
   }
 }
 @media (max-width: 767px) {
-  .home-intro-content{
-    padding: 4em 0;
-    text-align: center;
-  }
-  #homeIntro {
-    background-image: url("../images/includes/project1.jpg");
-  }
   .parallax { 
 	background-position: center center !important; 
   }

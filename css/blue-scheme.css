@@ -159,10 +159,10 @@ a, a:visited {
   position: relative;
   margin-top: 108px;
 }
-
+/* 
 .light-content, #blogPosts {
   margin-top: 100px;
-}
+} */
 
 /*------------------------------------------------------
 	HEADER STYLES 
@@ -323,8 +323,13 @@ a.menu-toggle-btn i {
 }
 
 .section-header {
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   text-align: center;
+  margin-top: 40px;
+}
+.portfolio-holder .see,.team-members .see{
+  text-align: center;
+  margin-bottom: 40px;
 }
 .section-header .section-title {
   font-size: 30px;
@@ -681,6 +686,7 @@ blockquote {
   display: block;
   position: relative;
   overflow: hidden;
+  border-radius:10px;
 }
 .thumb-post .overlay {
   position: absolute;
@@ -866,35 +872,33 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Testimonials Styling 
+	strategys Styling 
 --------------------------------------------------------*/
-.testimonials-widget {
+.strategys-widget {
   background-image: url(../images/strategy-bg.png);
   background-size: 100% 100%;
-  padding: 80px 0;
-  margin-top: 80px;
+  padding: 40px 0;
 }
 
-.testimonial {
+.strategy {
   text-align: center;
 }
 
-.testimonial-description {
+.strategy-description {
   font-size: 20px;
   line-height: 1.8em;
   margin: 40px 0 50px 0;
 }
 
-.testimonial-content {
-  width: 80%;
-  margin: 0 auto;
+.strategy-content .partner{
+  float: left;
+  margin: 30px 0 30px 0;
 }
-
-.testimonial-author {
+.strategy-author {
   margin-bottom: 40px;
   color: #aaaaaa;
 }
-.testimonial-author:before, .testimonial-author:after {
+.strategy-author:before, .strategy-author:after {
   content: "-";
   color: #c3c3c3;
   margin: 0 10px;
@@ -992,7 +996,7 @@ blockquote {
 }
 
 .blog-posts {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .post-blog {
@@ -1154,7 +1158,7 @@ blockquote {
 	Sidebar Styling 
 --------------------------------------------------------*/
 .sidebar {
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 100px;
 }
 
@@ -1287,7 +1291,7 @@ blockquote {
 
 .site-footer {
   background-color: #fff;
-  padding: 100px 0;
+  padding: 50px 0;
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
 }
@@ -1333,7 +1337,7 @@ blockquote {
     text-align: center;
   }
 
-  .testimonial-content {
+  .strategy-content {
     width: 100%;
   }
 

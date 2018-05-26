@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
 
 
 
-	/************** bxSlider (Testimonials) *********************/
+	/************** bxSlider (strategys) *********************/
 		function initbxSlider(){
 
 			$('.bxslider').bxSlider({
